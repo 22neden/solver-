@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>GitHub Copilot</Author>
+  <Created>2026-04-15T00:00:00Z</Created>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9000</WindowHeight>
+  <WindowWidth>13860</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>75</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Worksheet ss:Name="Schedule">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="9" x:FullColumns="1" x:FullRows="1">
+   <Row>
+    <Cell><Data ss:Type="String">Графік вихідних</Data></Cell>
+    <Cell><Data ss:Type="String">Пн</Data></Cell>
+    <Cell><Data ss:Type="String">Вт</Data></Cell>
+    <Cell><Data ss:Type="String">Ср</Data></Cell>
+    <Cell><Data ss:Type="String">Чт</Data></Cell>
+    <Cell><Data ss:Type="String">Пт</Data></Cell>
+    <Cell><Data ss:Type="String">Сб</Data></Cell>
+    <Cell><Data ss:Type="String">Нд</Data></Cell>
+    <Cell><Data ss:Type="String">Кількість (x)</Data></Cell>
+    <Cell><Data ss:Type="String">Поточний</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Пн, Вт</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Вт, Ср</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ср, Чт</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Чт, Пт</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Пт, Сб</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Сб, Нд</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Нд, Пн</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Всього працює</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C2:R8C2,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C3:R8C3,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C4:R8C4,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C5:R8C5,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C6:R8C6,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C7:R8C7,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUMPRODUCT(R2C8:R8C8,R2C9:R8C9)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Вимога</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Cell>
+    <Cell><Data ss:Type="Number">12</Cell>
+    <Cell><Data ss:Type="Number">14</Cell>
+    <Cell><Data ss:Type="Number">16</Cell>
+    <Cell><Data ss:Type="Number">18</Cell>
+    <Cell><Data ss:Type="Number">25</Cell>
+    <Cell><Data ss:Type="String"></Cell>
+    <Cell><Data ss:Type="String"></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
